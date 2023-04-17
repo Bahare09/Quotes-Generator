@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Quote Server</title>
+    <style>
+      /* Basic styling for the UI */
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        padding: 1rem;
+        background-color: #0074d9;
+        color: #fff;
+      }
+      button {
+        margin: 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        background-color: #0074d9;
+        color: #fff;
+        border: none;
+        border-radius: 0.25rem;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #005ea8;
+      }
+      input[type="text"] {
+        margin: 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 0.25rem;
+        width: 60%;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        background-color: #f6f6f6;
+        border-radius: 0.25rem;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bahar's Quote Server</h1>
+    <button id="all-quote-button">All Quote</button>
+    <button id="random-quote-button">Get Random Quote</button>
+    <input type="text" id="search-input" placeholder="Search for a quote" />
+    <button id="search-button">Search</button>
+    <ul id="quotes-list"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
